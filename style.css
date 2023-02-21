@@ -50,24 +50,56 @@ body {
     padding-bottom: 60px;
 }
 
+@media screen and (min-width: 480px) {
+    .container {
+      width: 480px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+
 /* ======================header======================== */
 
 .page-header {
     padding-top: 16px;
     padding-bottom: 16px;
-    border: 1px solid red;
 }
 
 .menu {
-
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu-nav {
-    display: none;
+@media screen and (min-width: 768px) {
+    .page-header {
+        display: flex;
+        height: 80px;
+        align-items: center;
+        padding: 0;
+    }
 }
-
-.header-contact {
-    display: none;
+  
+@media screen and (min-width: 1200px) {
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .web {
@@ -84,8 +116,95 @@ body {
     color: #000;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .web {
+        color: #000;
+    }
+}
+
 .menu-open {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.menu-open-icon:hover {
+    fill: #188CE8
+}
+
+@media screen and (min-width: 768px) {
+    .menu-open {
+        display: none;
+    }
+}
+
+.menu-nav {
+    display: none;
+}
+  
+  .header-contact {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    
+    .menu-nav {
+        display: flex;
+        margin-left: 93px;
+        align-items: center;
+    }
+    
+    .menu-nav .link:hover,
+    .header-contact .link:hover {
+        color: #2196f3;
+    }
+    
+    .nav-item {
+        margin-right: 57px;
+    }
+    
+    .menu-nav-link {
+        color: #212121;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
+
+    .menu-nav-link:hover {
+        color: #2196F3;
+    }
+    
+    .header-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-icon {
+        fill: #757575;
+        margin-right: 10px;
+    }
+    
+    .header-contact-list {
+        color: #757575;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
+    
+    .header-contact-list:hover {
+        color: #2196F3;
+    }
+    
+    .header-contact-list:hover .header-icon {
+        fill: #188CE8;
+    }
 }
