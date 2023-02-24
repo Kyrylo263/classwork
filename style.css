@@ -1,7 +1,7 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,
@@ -11,8 +11,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -34,8 +34,9 @@ ul {
 body {
     color: #757575;
     font-family: Roboto;
-    letter-spacing: 0,03em;
+    letter-spacing: 0, 03em;
     background-color: #fff;
+    margin: 0;
 }
 
 .container {
@@ -52,26 +53,26 @@ body {
 
 @media screen and (min-width: 480px) {
     .container {
-      width: 480px;
+        width: 480px;
     }
-  }
-  
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
     .container {
-      width: 768px;
+        width: 768px;
     }
-  }
-  
-  @media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
     .container {
-      width: 1200px;
+        width: 1200px;
     }
-  
+
     .section {
-      padding-top: 94px;
-      padding-bottom: 94px;
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
-  }
+}
 
 /* ======================header======================== */
 
@@ -93,7 +94,7 @@ body {
         padding: 0;
     }
 }
-  
+
 @media screen and (min-width: 1200px) {
     .page-header {
         display: flex;
@@ -103,7 +104,8 @@ body {
 }
 
 .web {
-    color: rgb(30, 173, 255); ;
+    color: rgb(30, 173, 255);
+    ;
 }
 
 .logo {
@@ -141,8 +143,8 @@ body {
 .menu-nav {
     display: none;
 }
-  
-  .header-contact {
+
+.header-contact {
     display: none;
 }
 
@@ -154,22 +156,22 @@ body {
         margin-top: 35px;
         margin-bottom: 32px;
     }
-    
+
     .menu-nav {
         display: flex;
         margin-left: 93px;
         align-items: center;
     }
-    
+
     .menu-nav .link:hover,
     .header-contact .link:hover {
         color: #2196f3;
     }
-    
+
     .nav-item {
         margin-right: 57px;
     }
-    
+
     .menu-nav-link {
         color: #212121;
         font-weight: 500;
@@ -181,17 +183,17 @@ body {
     .menu-nav-link:hover {
         color: #2196F3;
     }
-    
+
     .header-contact {
         display: flex;
         flex-direction: column;
     }
-    
+
     .header-icon {
         fill: #757575;
         margin-right: 10px;
     }
-    
+
     .header-contact-list {
         color: #757575;
         font-weight: 500;
@@ -199,11 +201,11 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
     }
-    
+
     .header-contact-list:hover {
         color: #2196F3;
     }
-    
+
     .header-contact-list:hover .header-icon {
         fill: #188CE8;
     }
@@ -309,3 +311,90 @@ body {
 }
 
 /* ==========================Team=========================== */
+
+.team {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.our-team {
+    background-color: #F5F4FA;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.name {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 30px;
+}
+
+.info {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+/* =========================Clients======================= */
+
+.clients-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 15px;
+
+    width: calc((100% - 15px * 4) / 2);
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-item:hover .clients-icon {
+    fill: #2196f3;
+}
+
+.clients-item:hover {
+    border: 1px solid #2196f3;
+    cursor: pointer;
+}
