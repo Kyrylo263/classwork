@@ -1,0 +1,30 @@
+.our-works {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .our-works {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+
+        display: flex;
+    }
+
+    .future {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work-img {
+        width: 370px;
+        height: 294px;
+    }
+
+    .work {
+        margin-bottom: 50px;
+    }
+}

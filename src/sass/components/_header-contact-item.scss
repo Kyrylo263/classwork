@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    .header-icon {
+        fill: #757575;
+        margin-right: 10px;
+    }
+
+    .header-contact-list {
+        color: #757575;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
+
+    .header-contact-list:hover {
+        color: #2196F3;
+    }
+
+    .header-contact-list:hover .header-icon {
+        fill: #188CE8;
+    }
+
+    .header-contact-item:first-child {
+        margin-bottom: 10px;
+    }
+}

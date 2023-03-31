@@ -1,4 +1,4 @@
-*,
+/* *,
 ::before,
 ::after {
     box-sizing: border-box;
@@ -73,11 +73,11 @@ body {
         padding-top: 94px;
         padding-bottom: 94px;
     }
-}
+} */
 
 /* ======================header======================== */
 
-.page-header {
+/* .page-header {
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -102,9 +102,9 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-}
+} */
 
-.web {
+/* .web {
     color: rgb(30, 173, 255);
 }
 
@@ -121,7 +121,7 @@ body {
     .web {
         color: #000;
     }
-}
+} */
 
 .menu-open {
     border: none;
@@ -147,7 +147,7 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .menu {
         display: flex;
         align-items: center;
@@ -160,9 +160,9 @@ body {
         display: flex;
         margin-left: 93px;
         align-items: center;
-    }
+    } */
 
-    .nav-item {
+    /* .nav-item {
         margin-right: 57px;
     }
 
@@ -176,14 +176,14 @@ body {
 
     .menu-nav-link:hover {
         color: #2196F3;
-    }
+    } */
 
-    .header-contact {
+    /* .header-contact {
         display: flex;
         flex-direction: column;
-    }
+    } */
 
-    .header-icon {
+    /* .header-icon {
         fill: #757575;
         margin-right: 10px;
     }
@@ -206,10 +206,10 @@ body {
 
     .header-contact-item:first-child {
         margin-bottom: 10px;
-    }
-}
+    } */
+/* } */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .header-contact {
         display: flex;
         flex-direction: row;
@@ -218,12 +218,12 @@ body {
     .header-contact-item:first-child {
         margin-right: 30px;
     }
-}
+} */
 
 /* =====================hero==================== */
 
-.hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/mobile/background.jpg);
+/* .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(src/img/mobile/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -268,19 +268,19 @@ body {
 
 @media screen and (min-width: 768px) {
     .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/tablet/background.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(src/img/tablet/background.jpg);
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/desktop/background.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(src/img/desktop/background.jpg);
     }
-}
+} */
 
 /* ======================feature===================== */
 
-.wrap-icon {
+/* .wrap-icon {
     background-color: #F5F4FA;
     border-radius: 4px;
     padding-top: 25px;
@@ -334,11 +334,11 @@ body {
     .feature-item {
         width: calc((100% - 4 * 30px) / 4)
     }
-}
+} */
 
 /* ========================Our works===================== */
 
-.our-works {
+/* .our-works {
     display: none;
 }
 
@@ -367,11 +367,11 @@ body {
     .work {
         margin-bottom: 50px;
     }
-}
+} */
 
 /* ==========================Team=========================== */
 
-.team {
+/* .team {
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
@@ -387,9 +387,9 @@ body {
     padding-left: 15px;
     font-size: 16px;
     line-height: 19px;
-}
+} */
 
-.name {
+/* .name {
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.03em;
@@ -411,9 +411,9 @@ body {
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-}
+} */
 
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     .team-list {
         display: flex;
         flex-wrap: wrap;
@@ -430,11 +430,11 @@ body {
     .team-item {
         width: calc((100% - 8 * 15px) / 4);
     }
-}
+} */
 
 /* =========================Clients======================= */
 
-.clients-title {
+/* .clients-title {
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
@@ -447,9 +447,9 @@ body {
 .clients-list {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.clients-item {
+/* .clients-item {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
@@ -488,11 +488,11 @@ body {
     .clients-item {
         width: calc((100% - 12 * 15px) / 6);
     }
-}
+} */
 
 /* =====================Footer====================== */
 
-.logo-footer {
+/* .logo-footer {
     display: block;
     font-family: 'Raleway';
     font-weight: 700;
@@ -535,4 +535,4 @@ footer {
     .logo-footer {
         color: #000;
     }
-}
+} */
